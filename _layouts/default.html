@@ -1,0 +1,27 @@
+<!DOCTYPE html> #means written in HTML5
+<html lang="en"> #language set to English
+<head>
+  <meta charset="UTF-8"> #makes sure special characters display 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> #scales correctly across devices
+  <title>{{ page.title }} | {{ site.title }}</title> #automatically grabs page and site names using Jekyll for tab
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}"> #attaches CSS style sheet(colors,fonts...) and applies to all pages
+</head>
+<body> #shared header and navigation:
+
+  <header>  #a top section that shows up every page
+    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>  #link that brings user back to homepage
+  </header>
+
+  <main> # when Jekyll builds an index or post file, it injects the page's specific body text into this tag
+    {{ content }}
+  </main>
+
+  <footer> #shared footer:
+    <p>&copy; 2026 {{ site.title }}</p>
+  </footer>
+
+</body>
+</html>
+
+#note for custom name repo: lines 7 & 12 attach the filter | relative_url to their links
+
