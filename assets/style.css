@@ -1,8 +1,6 @@
 /* shared formatting across pages goes with default file */
 .default-page {
-  background-image: url("images/download.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-image: linear-gradient(to bottom, rgba(0,175,238,1.0), rgba(0,175,238,0));
 }
 
 /* formatting for home page */
