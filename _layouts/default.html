@@ -6,7 +6,7 @@
   <title>{{ page.title }} | {{ site.title }}</title> {% comment %} automatically grabs page and site names using Jekyll for tab {% endcomment %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}"> {% comment %} attaches CSS style sheet(colors,fonts...) and applies to all pages {% endcomment %}
 </head>
-<body class"{{ page.layout }}-page"> {% comment %} shared header and navigation:{% endcomment %}
+<body class="{{ page.layout }}-page"> {% comment %} shared header and navigation:{% endcomment %}
 
   <header>  {% comment %} a header that shows up every page {% endcomment %}
     <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>  {% comment %} link that brings user back to homepage {% endcomment %}
@@ -24,4 +24,5 @@
 </html>
 
 {% comment %} note for custom name repo: lines 7 & 12 attach the filter | relative_url to their links {% endcomment %}
+{% comment %} note for line 9: we use class attribute to target it with our style sheet {% endcomment %}
 
