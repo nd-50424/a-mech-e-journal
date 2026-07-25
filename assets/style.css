@@ -1,6 +1,5 @@
 /* shared formatting across pages goes with default file */
-
-body {
+.default-page {
   background-image: url("images/download.jpg");
   background-repeat: no-repeat;
   background-position: right top;
