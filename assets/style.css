@@ -1,7 +1,7 @@
 /* shared formatting across pages goes with default file */
 
 body {
-  background-image: url("images/download.jpeg");
+  background-image: url("images/download.jpg");
   background-repeat: no-repeat;
   background-position: right top;
   background-attachment: scroll;
