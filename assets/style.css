@@ -1,4 +1,11 @@
-/* shared formatting across pages */
+/* shared formatting across pages goes with default file */
+
+body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
 
 /* formatting for home page */
 
