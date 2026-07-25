@@ -3,5 +3,7 @@ description: A blog built with Github and Jekyll
 theme: []
 
 # These lines are for custom repo names:
-url: "https://nd-50424.github.io" #include your username
-baseurl: "/a-mech-e-journal" #use exact repo name
+#include your username
+url: "https://nd-50424.github.io" 
+#use exact repo name
+baseurl: "/a-mech-e-journal"
