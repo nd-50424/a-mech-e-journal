@@ -4,6 +4,6 @@ theme: []
 
 # These lines are for custom repo names:
 #include your username
-url: "https://nd-50424.github.io" 
+url: "https://nd-50424.github.io"
 #use exact repo name
 baseurl: "/a-mech-e-journal"
